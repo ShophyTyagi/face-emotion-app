@@ -1,0 +1,79 @@
+/* CSS styles */
+.img{
+    display: inline;
+}
+    
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.camView {
+    z-index: 10;
+    position: relative;
+    width: 640px;
+    height: 200%;
+    background: #D4C8BE;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+  
+.camTitle{
+    display: flex;
+    justify-content: center;
+    width: 640px;
+    height: 80px;
+    background: #7F867B;
+    color: #D4C8BE;
+    font-family: "JetBrains Mono",monospace;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.3em 0em 1em rgba(0,0,0,0.3);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.buttonBorder{
+    position: relative; 
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    width: 640px;
+    height: 80px;
+    background: #7F867B;
+    color: #D4C8BE;
+    font-family: "JetBrains Mono",monospace;
+    font-size: 1.2em;
+    align-items: center;
+    box-shadow: 0.3em 0em 1em rgba(0,0,0,0.3);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+  
+.buttons {
+    z-index: 1;
+
+    position: relative;
+    border: none;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    right: -100;
+    top: 120;
+}
+  
+#start:hover {background-color: #86aab6;} 
+#stop:hover {background-color: #ec8982;}
